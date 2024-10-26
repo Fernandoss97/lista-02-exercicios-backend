@@ -26,7 +26,7 @@ app.get("/get-text", (req, res) => {
   res.send(`Inverted text: ${invertedArr.join("")}`);
 });
 
-//Exercício 2
+//Exercício 1
 app.get("/page1", (req, res) => {
   res.send(`
     <h1>Page 1</h1>
